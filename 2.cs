@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace net_pjt
 {
-    internal class Program
+    internal class _2
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //Point 1 - According to No of rows
-            for(int i=1; i<=9; i++)
+            for (int i = 1; i <= 10; i++)
             {
                 //Point 2 - According to No of columns in each row
-                int k = 9;
-                for (int j=1; j<=k; j++)
+                for (int j = 1; j <= 10; j++)
                 {
                     //Point 3 - Dealing with printing
-                    Console.Write("*");
+                        int k = i * j;
+                        Console.WriteLine(i + "*" + j + " = " + k);
                 }
                 Console.WriteLine();
             }

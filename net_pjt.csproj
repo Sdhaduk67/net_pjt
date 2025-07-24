@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1.cs" />
+    <Compile Include="2.cs" />
+    <Compile Include="3.cs" />
+    <Compile Include="CalMethds_1.cs" />
+    <Compile Include="Prc.cs" />
+    <Compile Include="Prc1.cs" />
+    <Compile Include="Prc2.cs" />
+    <Compile Include="Prc3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SwapMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
